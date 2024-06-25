@@ -6,9 +6,22 @@ body {
     text-align: center;
 }
 
-.container {
-    width: 60%;
-    margin: 0 auto;
+footer {
+    background-color: #e29734;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    padding: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 5px;
 }
 
 nav {
@@ -42,6 +55,11 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #613f00;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .pizza-grid {
@@ -81,6 +99,7 @@ nav ul li a:hover {
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .order-button:hover {
@@ -89,22 +108,4 @@ nav ul li a:hover {
 
 .disabled {
     cursor: not-allowed;
-}
-
-footer {
-    background-color: #e29734;
-    color: white;
-    text-align: center;
-    font-size: smaller;
-    padding: 5px;
-}
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 5px;
 }
